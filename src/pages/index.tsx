@@ -1,10 +1,14 @@
-import Head from "next/head";
+import Head from 'next/head';
+import OpenGraph from '../components/Head/OpenGraph';
 
 const Home = () => (
   <div className="container">
     <Head>
       <title>Mark Murphy 🤟</title>
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link rel="icon" href="/favicon.ico" />
+      <OpenGraph />
     </Head>
     <main>
       <h1 className="title">
