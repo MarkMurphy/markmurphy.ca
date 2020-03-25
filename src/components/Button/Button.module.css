@@ -1,0 +1,110 @@
+.button {
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  background-color: #0070c9;
+  background: linear-gradient(#42a1ec, #0070c9);
+  border: 1px solid #07c;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  min-width: 30px;
+  padding: 4px 15px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background-color: #147bcd;
+  background: linear-gradient(#51a9ee, #147bcd);
+  border-color: #1482d0;
+  text-decoration: none;
+}
+
+.button:focus {
+  box-shadow: 0 0 0 3px rgba(131, 192, 253, 0.5);
+  outline: none;
+}
+
+.button:active {
+  background-color: #0067b9;
+  background: linear-gradient(#3d94d9, #0067b9);
+  border-color: #006dbc;
+  outline: none;
+}
+
+.button:disabled {
+  background-color: #0070c9;
+  background: linear-gradient(#42a1ec, #0070c9);
+  border-color: #07c;
+  color: #fff;
+  cursor: default;
+  opacity: 0.3;
+}
+
+.compact {
+  font-size: 12px;
+  line-height: 1.33341;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  min-width: 20px;
+  padding: 2px 10px;
+}
+
+.pill {
+  font-size: 17px;
+  line-height: 1.17649;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  border-radius: 18px;
+  padding: 7px 17px;
+}
+
+.pill.compact {
+  font-size: 12px;
+  line-height: 1.33341;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  border-radius: 12px;
+  padding: 3px 11px;
+}
+
+.block {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+}
+
+.secondary {
+  background-color: #e3e3e3;
+  background: linear-gradient(#fff, #e3e3e3);
+  border-color: #d6d6d6;
+  color: #0070c9;
+}
+
+.secondary:hover {
+  background-color: #eee;
+  background: linear-gradient(#fff, #eee);
+  border-color: #d9d9d9;
+}
+
+.secondary:active {
+  background-color: #dcdcdc;
+  background: linear-gradient(#f7f7f7, #dcdcdc);
+  border-color: #d0d0d0;
+}
+
+.secondary:disabled {
+  background-color: #e3e3e3;
+  background: linear-gradient(#fff, #e3e3e3);
+  border-color: #d6d6d6;
+  color: #0070c9;
+}
+
+.form {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.76471rem 0.88235rem 0.82353rem;
+}
